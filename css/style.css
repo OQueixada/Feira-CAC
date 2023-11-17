@@ -76,6 +76,6 @@ body {
 
  @media (max-width: 991.98px) {
     .footerContainer {
-        margin-left: -10rem;
+        margin-left: auto;
     }
  }
