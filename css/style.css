@@ -16,3 +16,66 @@ body {
     font: bold;
     margin-top: 13%;
 }
+
+@media screen and (max-width: 768px) {
+    section, aside {
+        width: 100%;
+    }
+}
+
+/* Social Midia */
+
+.footer {
+    background-color: #000000;
+}
+
+.footerContainer {
+    margin-left: 70rem;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: #067BFF;
+    margin: 10px;
+    border-radius: 100%;
+}
+
+.socialIcons a i {
+    font-size: 1.3rem;
+    color: black;
+    opacity: 0.9;
+}
+
+/* Hover Effects Social Midia */
+
+.socialIcons a:hover {
+    background-color: #026AE1;
+    transition: 0.5s;
+}
+
+.socialIcons a:hover i {
+    color: white;
+    transition: 0.5s;
+}
+
+.copyright{
+    max-width: 1200px;
+    margin: auto;
+    padding: 1rem;
+    color: #4d4d4d;
+    font-size: 0.8rem;
+    text-align: center;
+}
+ /* Media Queri */
+
+ @media (max-width: 991.98px) {
+    .footerContainer {
+        margin-left: -10rem;
+    }
+ }
