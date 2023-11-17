@@ -17,53 +17,6 @@ body {
     margin-top: 13%;
 }
 
-@media screen and (max-width: 768px) {
-    section, aside {
-        width: 100%;
-    }
-}
-
-/* Social Midia */
-
-.footer {
-    background-color: #000000;
-}
-
-.footerContainer {
-    margin-left: 70rem;
-}
-
-.socialIcons {
-    display: flex;
-    justify-content: center;
-}
-
-.socialIcons a {
-    text-decoration: none;
-    padding: 10px;
-    background-color: #ebebeb;
-    margin: 10px;
-    border-radius: 100%;
-}
-
-.socialIcons a i {
-    font-size: 1.3rem;
-    color: black;
-    opacity: 0.9;
-}
-
-/* Hover Effects Social Midia */
-
-.socialIcons a:hover {
-    background-color: #0056b8;
-    transition: 0.5s;
-}
-
-.socialIcons a:hover i {
-    color: white;
-    transition: 0.5s;
-}
-
 .copyright{
     max-width: 1200px;
     margin: auto;
@@ -72,10 +25,98 @@ body {
     font-size: 0.8rem;
     text-align: center;
 }
- /* Media Queri */
 
- @media (max-width: 991.98px) {
-    .footerContainer {
-        margin-left: auto;
-    }
- }
+    /* Integrantes */
+
+ .ana {
+    width: 100px;
+    border-radius: 100%;
+    margin-right: -400px;
+}
+
+.lara {
+    width: 120px;
+    border-radius: 150%;
+}
+
+.luis {
+    width: 100px;
+    border-radius: 100%;
+    margin-right: -400px;
+}
+
+.isabel {
+    width: 100px;
+    border-radius: 100%;
+    margin-right: -400px;
+}
+
+.sophia {
+    width: 100px;
+    border-radius: 100%;
+    margin-right: -400px;
+}
+
+.thiago {
+    width: 100px;
+    border-radius: 100%;
+    margin-right: -400px;
+}
+
+.vitoria {
+    width: 100px;
+    border-radius: 100%;
+    margin-right: -400px;
+}
+
+.ale {
+    width: 100px;
+    border-radius: 100%;
+    margin-right: -400px;
+}
+
+.camila {
+    width: 100px;
+    border-radius: 100%;
+    margin-right: -400px;
+}
+
+.regina {
+    width: 100px;
+    border-radius: 100%;
+    margin-right: -400px;
+}
+
+.integrantes img {
+    margin-right: -60px;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+.titleIntegrantes {
+    text-align: center;
+}
+
+.person {
+    display: flex;
+}
+
+.infoPerson h1{
+    margin-top: 30px;
+    margin-left: 80px;
+    font-size: 22px;
+    color: #000000;
+}
+
+.infoPerson p{
+    color: #000000;
+    opacity: 0.4;
+    font-size: 19px;
+    margin-left: 80px;
+    position: relative;
+    top: -8px;
+}
+
+.infoPerson {
+    margin-right: -10px;
+}
