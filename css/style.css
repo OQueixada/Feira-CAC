@@ -41,7 +41,7 @@ body {
 .socialIcons a {
     text-decoration: none;
     padding: 10px;
-    background-color: #067BFF;
+    background-color: #ebebeb;
     margin: 10px;
     border-radius: 100%;
 }
@@ -55,7 +55,7 @@ body {
 /* Hover Effects Social Midia */
 
 .socialIcons a:hover {
-    background-color: #026AE1;
+    background-color: #0056b8;
     transition: 0.5s;
 }
 
